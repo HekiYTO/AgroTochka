@@ -14,6 +14,18 @@ body {
     border: white 0 0;
 }
 
+.best-topor {
+    background-image: url(images/Topor.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.info > .mtext {
+    color: black;
+    font-size: 30px;
+}
+
 .si {
     border: white 1px solid;
     border-radius: 40px;

@@ -15,15 +15,34 @@ body {
 }
 
 .best-topor {
-    background-image: url(images/Topor.png);
+    background-image: url(images/background.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info-p {
+    color: white;
+    width: 1100px;
+    text-align: center;
+}
+
 .info > .mtext {
-    color: black;
     font-size: 30px;
+}
+
+.info-button {
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-radius:50px ;
+    border:1px black solid ;
 }
 
 .si {

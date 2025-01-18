@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 90px 0 0 0;
+    font-family: "Roboto", serif;
+}
+
+.sb {
+    border: white 0 0;
+}
+
+.si {
+    border: white 1px solid;
+    border-radius: 40px;
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.si:focus {
+    border: black 1px solid;
+}
+
+.si:hover {
+    border: black 1px solid;
+}
+
+.button-search {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.button-search:hover {
+    cursor: pointer;
+}
+
+.mainbot {
+    padding-bottom: 165px;
+}
+
+h1 {
+    color: white;
+    font-family: "Jura", serif;
+}
+
+header {
+    width: 100%;
+    top: 0;
+    left: 0;
+position: fixed;
+ background-color: #00AC6B;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.lcarta {
+    box-shadow: 0px 2px 1px 0px #2E2F4214;
+    box-shadow: 0px 1px 1px 0px #2E2F4229;
+    box-shadow: 0px 1px 6px 0px #2E2F4214;
+    background-color:#20815D ;
+    display: flex;
+    border: solid 1px #00AC6B;
+    border-radius: 7px;
+    flex-direction: column;
+}
+
+.lcarta:hover {
+    border: black solid 1px;
+}
+
+h1 {
+    padding-top: 22px;
+}
+
+.search {
+    display: flex;
+    background-color: #00AC6B;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.lupa {
+    display: flex;
+    flex-direction: column;
+}
+
+.lideri {
+    display: flex;
+    justify-content: space-around ;
+}
+
+.mtext {
+    color: white;
+    font-family: "Jura", serif;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.lideriprodazh {
+background-image:  linear-gradient(#00AC6B ,#60D6A9 ,#00AC6B );
+}
+
+.news {
+    background-color: #00AC6B;
+}
+
+.lcartabot {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #007046;
+}
+
+.img {
+    padding: 0;
+    margin: 0;
+}
+
+.lcartamid {
+    
+    color: white;
+    text-align: center;
+    background-color: #20815D;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.logoimg {
+    padding: 15px ;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nava {
+    padding-right: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #007046;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+   
+.logof {
+    display: flex;
+    align-items: center;
+}
+   
+.logofimg {
+    padding: 15px ;
+    width: 10%;
+}
+
+h6 {
+    color: white;
+    font-family: "Jura", serif;
+}
+
+.iconsimg {
+    width:20%;
+    margin-right: 20px;
+}

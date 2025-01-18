@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    min-height: 80vh;
+    background-color:#60D6A9 ;
+}
+
+.flex-container {
+    width: 1250px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-dva-p {
+    font-size: 20px;
+    text-align:justify;
+    color: white;
+}
+
+.buy {
+ margin-top: 30px;
+ background-color: #007046;
+ border-radius: 8px;
+ padding: 10px 20px;
+}
+
+.buy:hover {
+    color: gray;
+    border: 1px solid black;
+}
+
+h2 {
+    color: white;
+    font-family: "Jura", serif;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    font-size: 30px;
+}
+
+h3 {
+    color: white;
+    font-family: "Jura", serif;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    font-size: 25px;
+}
+
+.containerText > p {
+    padding: 3px 0 3px 0;
+}
+
+.containerText {
+    flex: 3;
+    padding-left: 10%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    color: white;
+}
+
+.container {
+    display: flex;
+    padding: 0 30px 30px 30px;
+    justify-content: space-between;
+
+}
+
+body {
+    margin: 90px 0 0 0;
+    font-family: "Roboto", serif;
+}
+
+
+.mainbot {
+    padding-bottom: 165px;
+}
+
+h1 {
+    color: white;
+    font-family: "Jura", serif;
+}
+
+header {
+    width: 100%;
+    top: 0;
+    left: 0;
+position: fixed;
+ background-color: #00AC6B;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+
+
+h1 {
+    padding-top: 22px;
+}
+
+
+
+
+
+
+.mtext {
+    color: white;
+    font-family: "Jura", serif;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.img {
+    padding: 0;
+    margin: 0;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.logoimg {
+    padding: 15px ;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nava {
+    padding-right: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #007046;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+   
+.logof {
+    display: flex;
+    align-items: center;
+}
+   
+.logofimg {
+    padding: 15px ;
+    width: 10%;
+}
+
+h6 {
+    color: white;
+    font-family: "Jura", serif;
+}
+
+.iconsimg {
+    width:20%;
+    margin-right: 20px;
+}

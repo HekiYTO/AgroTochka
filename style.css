@@ -15,6 +15,7 @@ body {
 }
 
 .best-topor {
+    min-height: 30vh;
     background-image: url(images/background.webp);
     background-size: cover;
     background-repeat: no-repeat;
@@ -39,10 +40,23 @@ body {
 }
 
 .info-button {
+    transition: transform 500ms;
     margin: 20px 0;
     padding: 10px 20px;
     border-radius:50px ;
     border:1px black solid ;
+}
+
+.info-button:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.info-button:active {
+    font-size: 18px;
+    text-decoration: underline;
 }
 
 .si {
@@ -80,6 +94,7 @@ h1 {
 }
 
 header {
+    z-index: 10;
     width: 100%;
     top: 0;
     left: 0;
@@ -91,6 +106,7 @@ position: fixed;
 }
 
 .lcarta {
+    transition: transform 500ms;
     box-shadow: 0px 2px 1px 0px #2E2F4214;
     box-shadow: 0px 1px 1px 0px #2E2F4229;
     box-shadow: 0px 1px 6px 0px #2E2F4214;
@@ -101,7 +117,10 @@ position: fixed;
     flex-direction: column;
 }
 
+
+
 .lcarta:hover {
+    transform: scale(1.2);
     border: black solid 1px;
 }
 
